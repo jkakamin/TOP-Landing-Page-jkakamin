@@ -23,6 +23,10 @@ p{
     gap: 5px;
     }
 
+    .logo{
+        height: 30px;
+    }
+
     .right-block{
     display: flex;
     gap: 10px;
