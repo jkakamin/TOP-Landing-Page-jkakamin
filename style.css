@@ -85,15 +85,15 @@ button{
     gap: 5px;
     }
 
-    .top-section-button{
-        /*display: flex;
-        justify-content: center;*/
-        
-    }
-
     .top-section-img{
         height: 200px;
 
+    }
+
+    button{
+        color: inherit;
+        border: 2px solid white;
+        background-color: darkblue;
     }
 
 }
@@ -154,7 +154,7 @@ button{
     align-items: flex-end;
     padding: 20px;
     color: black;
-    background-color: gray;
+    background-color: lightgray;
 
     .textbox{
         align-items: flex-end;
@@ -177,6 +177,8 @@ button{
     flex-direction: row;
     padding: 20px;
     margin: 50px;
+    color: white;
+    background-color: darkblue;
 }
 
 .signup{
@@ -196,6 +198,12 @@ button{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+    button{
+        color: inherit;
+        border: 2px solid white;
+        background-color: inherit;
     }
 
 }
