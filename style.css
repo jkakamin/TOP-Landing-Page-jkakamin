@@ -160,18 +160,25 @@ a{
     }
 }
 
+.prompt-window{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    margin: 50px;
+}
+
 .signup{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 50px;
+    /*padding: 50px;*/
 
     .textbox{
-        display: flex;
+        /*flex-direction: row;
         padding: 20px;
         margin: 20px;
-        gap: 5px;
+        gap: 5px;*/
     }
 
     .title{
@@ -183,6 +190,7 @@ a{
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
     }
 
     button{
