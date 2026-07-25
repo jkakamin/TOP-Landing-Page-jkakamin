@@ -81,7 +81,7 @@ a{
 
 }
 
-.textblock{
+.textbox{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -140,6 +140,8 @@ a{
     .textbox{
         /*display: flex;
         flex-direction: column;*/
+
+        align-items: flex-end;
         min-width: 300px;
         max-width: 500px;
         margin-left: 20px;
