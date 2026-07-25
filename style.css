@@ -148,13 +148,13 @@ a{
     }
 
     .quote{
-        display: flex;
-        justify-content: flex-end;
+        /*display: flex;
+        justify-content: flex-end;*/
     }
 
     .name{
-        display: flex;
-        justify-content: flex-end;
+        /*display: flex;
+        justify-content: flex-end;*/
     }
 }
 
