@@ -1,5 +1,5 @@
 *{
-    outline: 1px solid magenta;
+    /*outline: 1px solid magenta;*/
 }
 
 body{
@@ -72,6 +72,8 @@ button{
     justify-content: center;
     gap: 10px;
     padding: 20px;
+    color: white;
+    background-color: gray;
 
     .left-block{
     display: flex;
