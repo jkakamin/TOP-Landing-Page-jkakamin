@@ -67,9 +67,10 @@ a{
     }
 
     .top-section-button{
-        display: flex;
+        /*display: flex;
+        justify-content: center;*/
         width: 100px;
-        justify-content: center;
+        text-align: center;
         
     }
 
