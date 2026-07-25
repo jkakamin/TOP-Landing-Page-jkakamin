@@ -138,8 +138,8 @@ a{
     padding: 20px;
 
     .textbox{
-        display: flex;
-        flex-direction: column;
+        /*display: flex;
+        flex-direction: column;*/
         min-width: 300px;
         max-width: 500px;
         margin-left: 20px;
