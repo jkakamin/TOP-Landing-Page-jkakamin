@@ -128,13 +128,13 @@ a{
     flex-direction: column;
     align-items: flex-end;
     padding: 20px;
-    margin-left: 20px;
 
     .textbox{
         display: flex;
         flex-direction: column;
         min-width: 300px;
         max-width: 500px;
+        margin-left: 20px;
     }
 
     .quote{
@@ -146,4 +146,39 @@ a{
         display: flex;
         justify-content: flex-end;
     }
+}
+
+.signup{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+
+    .textbox{
+        display: flex;
+        padding: 20px;
+        margin: 20px;
+        gap: 5px;
+    }
+
+    .title{
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    .right-block{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    button{
+        display: flex;
+        width: 100px;
+        height: 30px;
+        justify-content: center;
+        align-items: center;
+    }
+
 }
