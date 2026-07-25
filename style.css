@@ -40,6 +40,27 @@ a{
 
 .top-section{
     display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+}
+
+.textblock{
+    display: flex;
+    flex-direction: column;
+    min-width: 200px;
+    justify-content: flex-start;
+}
+
+.top-section-button{
+    display: flex;
+    width: 100px;
+
+}
+
+.top-section-img{
+    height: 200px;
+
 }
 
 
