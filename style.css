@@ -45,17 +45,40 @@ a{
     padding: 20px;
 }
 
-.textblock{
+.top-section .left-block{
     display: flex;
     flex-direction: column;
     min-width: 200px;
+    max-width: 300px;
     justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+}
+
+.textblock{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 0;
+    gap: 5px;
+}
+
+.textblock p{
+    padding: 5px;
+    margin: 0;
+}
+
+.textblock .title{
+    font-weight: bold;
+    font-size: 20px;
 }
 
 .top-section-button{
     display: flex;
     width: 100px;
-
+    justify-content: center;
+    
 }
 
 .top-section-img{
