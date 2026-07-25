@@ -17,9 +17,12 @@ p{
     display: flex;
     justify-content: space-between;
     padding: 10px 20px;
+    color: white;
+    background-color: gray;
 
     .left-block{
     display: flex;
+    align-items: center;
     gap: 5px;
     }
 
@@ -29,6 +32,7 @@ p{
 
     .right-block{
     display: flex;
+    align-items: center;
     gap: 10px;
     }
 }
@@ -41,6 +45,7 @@ ul{
 
 a{
     text-decoration: none;
+    color: inherit;
 }
 
 .footer{
@@ -48,6 +53,8 @@ a{
     justify-content: center;
     align-items: center;
     padding: 10px 20px;
+    color: white;
+    background-color: gray;
 
     p{
         font-size: 10px;
