@@ -6,6 +6,8 @@ body{
     /*display: flex;
     flex-direction: column;*/
     /*min-width: 600px;*/
+    margin: 0;
+    padding: 0;
 }
 
 p{
@@ -160,7 +162,8 @@ button{
         align-items: flex-end;
         min-width: 300px;
         max-width: 500px;
-        margin-left: 20px;
+        margin-left: 100px;
+        margin-right: 100px;
     }
 
     .quote{
